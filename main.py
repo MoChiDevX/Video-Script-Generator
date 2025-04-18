@@ -6,7 +6,7 @@ st.title('🔥短视频脚本生成器')
 st.write('注：维基百科搭载，需科学上网')
 
 with st.sidebar:
-    openai_api_key = st.text_input('请输入密钥(本地环境变量有填1):', type = 'password')
+    openai_api_key = st.text_input('请输入密钥:', type = 'password')
     base_url = st.text_input('请输入镜像网站地址(可选)：')
     st.markdown('[获取OPENAI api密钥](https://platform.openai.com/api-keys)')
 
@@ -22,8 +22,6 @@ if submit and not subject:
     st.info('请输入主题')
     st.stop()
 
-if openai_api_key == '1':
-    openai_api_key = os.getenv('OPENAI_API_KEY')
 if submit:
     with st.spinner('AI思考中，请稍等…'):
         if openai_api_key:
