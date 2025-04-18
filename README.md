@@ -7,11 +7,11 @@ A Chinese short video script generator powered by Streamlit and LangChain, enhan
 
 ### 🚀 功能 Features
 
-- 🎯 根据主题生成吸引人的视频标题和脚本  
-  Generate catchy video titles and scripts based on your topic
+- 🎯 可选镜像站作为接口地址，适用于国内访问优化  
+  Optional mirror URL for OpenAI API to improve access in certain regions
 
-- ✍️ 脚本风格轻松有趣，适合年轻观众  
-  Fun and engaging script style for younger audiences
+- ✍️ 根据主题生成吸引人的视频标题和脚本  
+  Generate catchy video titles and scripts based on your topic
 
 - ⏱ 支持设置脚本长度与创意程度  
   Customize script length and creativity level
