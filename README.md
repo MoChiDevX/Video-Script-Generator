@@ -5,28 +5,8 @@ A Chinese short video script generator powered by Streamlit and LangChain, enhan
 
 ---
 
-### 🚀 功能 Features
-
-- 🎯 可选镜像站作为接口地址，适用于国内访问优化  
-  Optional mirror URL for OpenAI API to improve access in certain regions
-
-- ✍️ 根据主题生成吸引人的视频标题和脚本  
-  Generate catchy video titles and scripts based on your topic
-
-- ⏱ 支持设置脚本长度与创意程度  
-  Customize script length and creativity level
-
-- 🌐 接入维基百科中文搜索作为辅助资料  
-  Integrates Wikipedia Chinese search as a reference
-
----
-
-### 📦 安装 Installation
-
-```bash
-pip install -r requirements.txt
-```
 ### 🛠 使用方法 Usage
 ```bash
+pip install -r requirements.txt
 streamlit run app.py
 ```
